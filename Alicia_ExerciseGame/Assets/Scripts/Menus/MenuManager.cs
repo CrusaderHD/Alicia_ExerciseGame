@@ -32,7 +32,7 @@ public class MenuManager : MonoBehaviour
     IEnumerator StartGameCountdownTimer()
     {
         yield return new WaitForSeconds(10); 
-        SceneManager.LoadScene("Testing");
+        SceneManager.LoadScene("Level1");
     }
 
 
